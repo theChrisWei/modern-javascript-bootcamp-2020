@@ -28,10 +28,7 @@ moveX(btn, 100, 1000)
 	.then(() => moveX(btn, 100, 1000))
 	.then(() => moveX(btn, 100, 1000))
 	.then(() => moveX(btn, 100, 1000))
-	.then(() => {
-		console.log('%cwoah, big screen, big dick too', 'color:pink; font-size: 18px');
-		return moveX(btn, 100, 1000);
-	})
+	.then(() => moveX(btn, 100, 1000))
 	.then(() => moveX(btn, 100, 1000))
 	.then(() => moveX(btn, 100, 1000))
 	.then(() => moveX(btn, 100, 1000))
