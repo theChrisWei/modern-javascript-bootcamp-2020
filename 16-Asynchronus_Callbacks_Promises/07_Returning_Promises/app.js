@@ -1,5 +1,23 @@
 // Function returns a promise
 
+
+
+
+
+// const willGetYouADog = new Promise((resolve, reject) => {
+// 	setTimeout(() => {
+// 		const rand = Math.random();
+// 		if (rand < 0.5) {
+// 			resolve();
+// 		}
+// 		else {
+// 			reject();
+// 		}
+// 	}, 5000);
+// })
+
+
+
 const makeDogPromise = () => {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
